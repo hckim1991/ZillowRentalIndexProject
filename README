@@ -1,0 +1,15 @@
+*** NYCDSA/7Park Capstone Project ***
+- Goal of the project is to build a machine learning model to predict Zillow Observed Rent Index (ZORI)
+- Notebooks and scripts
+  - income inequality: Clean up initial raw income inequality data
+  - income_and_households: Clean up initial raw income and households data
+  - job_openings: Clean up initial raw job openings data
+  - Unemployment_data_collection: Clean up initial raw unemployment  data
+  - vacancy: Clean up initial raw vacancy data
+  - Final EDA: EDA of each feature
+  - features: Aggregates all the features and clean them up further to produce final clean csv for each feature
+  - us_state_abbrev: py script to convert between state abbreviations and state names
+  - data_for_models: py script that produces dataframes for model testing using clean feature csv files
+  - models: Contains machine learning models to predict ZORI
+  - Slope Models: Contains machine learnings models that involves slopes of ZORI and features over time
+  - Logistical Models: Contains logistical model to predict which zipcode saw a COVID boom or bust in rental prices
